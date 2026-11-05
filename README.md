@@ -10,7 +10,7 @@ Site responsivo, sem banco de dados e pronto para publicação como Static Site 
 5. Faça o deploy.
 
 ## Domínio e compartilhamento
-O site já está configurado para `https://solarenergia.onrender.com/`. O Open Graph aponta para `/assets/og-image.png` (imagem PNG 1200×630) e inclui metadados para WhatsApp/Facebook. Se o endereço público mudar, atualize `canonical`, `og:url`, `og:image`, Twitter image e sitemap em `index.html`/`sitemap.xml`.
+O site já está configurado para `https://energiasolar-ccm1.onrender.com/`. O Open Graph aponta para `/assets/og-image.png` (imagem PNG 1200×630) e inclui metadados para WhatsApp/Facebook. Se o endereço público mudar, atualize `canonical`, `og:url`, `og:image`, Twitter image e sitemap em `index.html`/`sitemap.xml`.
 
 Após publicar, valide a prévia em um depurador de compartilhamento e aguarde o cache do WhatsApp atualizar. O crawler precisa conseguir acessar a página e a imagem sem login.
 
@@ -20,3 +20,11 @@ Após publicar, valide a prévia em um depurador de compartilhamento e aguarde o
 - O depoimento é o texto compartilhado pelo solicitante; confirme autorização e correspondência com uma avaliação pública antes de divulgar.
 - A calculadora é ilustrativa (80% de economia potencial), não é proposta técnica nem promessa de economia. O cálculo real depende de tarifa, consumo, custos mínimos, regras da distribuidora e dimensionamento.
 - Confirme horários, área efetiva de atendimento, serviços executados e dados de avaliações com a empresa.
+
+
+## Revisão aplicada
+- Metadados canonical, Open Graph, Twitter e sitemap atualizados para `energiasolar-ccm1.onrender.com`.
+- Paleta escura premium aplicada às seções que antes tinham fundos brancos.
+- Calculadora reescrita com sincronização entre campo numérico e slider, validação de valor e fallback para abrir WhatsApp.
+- Logo do cabeçalho e rodapé configurados para voltar ao topo real da página.
+- Menu mobile, animações de entrada e ano do rodapé com tratamento de compatibilidade.

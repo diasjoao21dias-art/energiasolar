@@ -16,3 +16,61 @@
 @media(max-width:900px){.nav{gap:17px}.nav>a{font-size:11px}.hero-content{grid-template-columns:1fr 1fr;gap:10px}.hero h1{font-size:57px}.hero-visual{transform:scale(.9)}.impact-layout,.simulator-layout,.about-layout,.faq-layout{gap:45px}.testimonial-layout{gap:45px}.section{padding:85px 0}}
 @media(max-width:700px){.container{width:min(100% - 38px,540px)}.topline-inner{height:32px;font-size:9px}.header{height:70px}.brand-mark{width:37px;height:37px}.brand-name{font-size:19px}.menu-toggle{display:flex;flex-direction:column;gap:5px;border:0;background:#f2f4f1;border-radius:4px;padding:12px}.menu-toggle i{width:19px;height:2px;background:var(--navy);display:block}.nav{display:none;position:absolute;top:69px;left:0;right:0;background:#fff;padding:20px 22px 25px;box-shadow:0 15px 25px rgba(0,0,0,.1);flex-direction:column;align-items:stretch;gap:0}.nav.open{display:flex}.nav>a{padding:14px 5px;font-size:13px;border-bottom:1px solid #edf0ed}.nav .nav-cta{margin-top:12px;text-align:center;border:0;padding:15px}.hero{min-height:auto}.hero-content{display:flex;flex-direction:column;align-items:stretch;padding:65px 0 35px;gap:0}.hero h1{font-size:clamp(47px,12vw,63px);letter-spacing:-3px;margin:23px 0 15px}.hero-lead{font-size:13px;line-height:1.8}.hero-actions{display:grid;grid-template-columns:1fr;gap:10px;margin-top:24px}.btn{padding:16px;font-size:11px}.hero-proof{margin-top:28px;gap:8px}.hero-proof strong{font-size:10px}.hero-proof small{font-size:9px}.proof-divider{margin:0 3px}.stars{font-size:12px;letter-spacing:1px}.hero-visual{height:310px;transform:none;margin-top:28px}.solar-art{height:265px;border-radius:46% 46% 5px 5px}.art-sun{width:90px;height:90px;top:35px}.panel-back{top:130px}.panel-front{top:185px;height:140px}.art-label{bottom:14px;left:16px}.floating-chip{padding:9px 11px}.floating-chip b{font-size:9px}.floating-chip small{font-size:8px}.chip-one{top:42px;left:-4px}.chip-two{right:-4px;bottom:30px}.sun-orb{width:300px;height:300px;right:0;top:0}.hero-bottom .container{height:auto;min-height:52px;gap:9px;flex-wrap:wrap;justify-content:center;font-size:8px;letter-spacing:1px;padding:13px 0}.trust-grid{grid-template-columns:1fr 1fr;row-gap:20px;padding:22px 0}.trust-grid>div{padding:0 12px;border-right:1px solid #e1e6e2}.trust-grid>div:nth-child(2){border:0}.trust-grid>div:nth-child(3){padding-left:0}.trust-grid strong{font-size:14px}.trust-grid small{font-size:9px}.section{padding:75px 0}.section-heading{display:block;margin-bottom:30px}.section-heading h2,.impact-copy h2,.sim-copy h2,.about-copy h2,.faq-intro h2{font-size:36px;letter-spacing:-1.5px}.section-heading>p{font-size:11px;margin-top:18px}.solution-grid{grid-template-columns:1fr;gap:12px}.solution-card{height:340px;padding:24px}.solution-card h3{font-size:21px}.solution-card p{font-size:11px}.impact-section{padding:75px 0}.impact-layout{grid-template-columns:1fr;gap:35px}.impact-copy p{font-size:12px}.impact-stats{gap:9px}.stat-card{padding:17px;min-height:130px}.stat-large{min-height:270px}.stat-large strong{font-size:23px}.stat-card strong{font-size:15px}.stat-card small{font-size:9px}.stat-wide{min-height:100px}.simulator-section{padding:75px 0}.simulator-layout{grid-template-columns:1fr;gap:30px}.sim-copy p{font-size:12px}.calculator{padding:25px 20px}.calc-top{font-size:8px;margin-bottom:24px}.money-input input{font-size:31px}.result-main strong{font-size:39px}.process-section{padding:75px 0}.process-grid{grid-template-columns:1fr 1fr;row-gap:30px}.process-item{padding-right:12px}.process-item p{font-size:10px}.testimonial-section{padding:70px 0}.testimonial-layout{grid-template-columns:1fr;gap:30px}.review-score .big-score{font-size:66px}.review-quote{padding:28px 25px}.review-quote blockquote{font-size:20px}.about-section{padding:75px 0}.about-layout{grid-template-columns:1fr;gap:35px}.about-visual{height:300px}.about-sun{width:170px;height:170px}.about-panel b{font-size:24px}.about-copy>p{font-size:11px}.faq-section{padding:75px 0}.faq-layout{grid-template-columns:1fr;gap:25px}.faq-list summary{font-size:12px}.final-cta-inner{min-height:300px;padding:42px 0;display:flex;align-items:flex-start;flex-direction:column;justify-content:center;gap:23px}.final-cta h2{font-size:33px}.final-cta p{font-size:10px;max-width:280px}.cta-sun{right:-20px;top:15px;font-size:150px}.footer-main{grid-template-columns:1fr;gap:18px;padding:35px 0 25px}.footer-main>p{max-width:280px}.footer-links{justify-content:flex-start;gap:16px}.footer-bottom{font-size:8px;gap:12px}.whatsapp-float{width:50px;height:50px;right:15px;bottom:15px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+
+
+/* === REVISAO PREMIUM 2026: identidade escura consistente === */
+:root{--navy:#061522;--navy2:#0b2232;--ink:#e8eff1;--cream:#0a1d2b;--line:rgba(194,213,218,.13)}
+body{background:#071927;color:#e7eef0}
+.header{background:rgba(5,19,31,.96);border-bottom:1px solid rgba(255,255,255,.09)}
+.brand{color:#f5f7f5}.brand-name>span{color:#e4b34e}
+.nav{color:#b8c7cd}.nav>a:not(.nav-cta):hover{color:var(--gold2)}
+.nav-cta{background:#e6ad39;color:#102536}
+.menu-toggle{background:#183346}.menu-toggle i{background:#f6c65e}
+.section,.about-section,.process-section{background:#091e2d}
+.section-heading h2,.about-copy h2,.faq-intro h2{color:#f1f5f5}
+.section-heading>p,.about-copy>p,.about-details small,.faq-intro p{color:#a1b2bb}
+.trust-strip{background:#0d2638;border-color:rgba(255,255,255,.08)}
+.trust-grid>div{border-color:rgba(255,255,255,.1)}
+.trust-grid strong{color:#f0f4f4}.trust-grid small{color:#9aabb3}
+.solution-card,.solution-card.business,.solution-card.rural{background:linear-gradient(145deg,#112d40,#0b2232);border-color:rgba(255,255,255,.1);color:#edf3f3}
+.solution-card p{color:#a5b5bc}.solution-card>a{color:#f2c35d}
+.solution-icon{background:#1a394d;color:#f4c45d}
+.card-number{color:#9eb0b7}
+.house-body{background:#294b58}.roof{background:#345965}.window{background:#80b5c1}.door{background:#426b72}
+.building-art div{background:#315b69;border-color:#6d929b}
+.field-art span{background:repeating-linear-gradient(0deg,#8d925f 0 7px,#c0b77d 8px 13px)}
+.impact-section{background:#041321}
+.simulator-section,.testimonial-section,.faq-section{background:#0b2232}
+.sim-copy h2{color:#f1f5f5}.sim-copy p{color:#a5b5bc}
+.sim-note{background:#142f40;color:#aab9bf}
+.calculator{background:linear-gradient(150deg,#153449,#102b3d);border:1px solid rgba(255,255,255,.12);box-shadow:0 24px 70px rgba(0,0,0,.28);color:#f1f5f5}
+.calc-top{color:#b8c7cd}.calc-live{color:#9aafb7}
+.calculator label{color:#f0f4f4}.money-input{border-color:#456071}
+.money-input input{color:#fff}.money-input span{color:#c2cdd1}
+.range-row{color:#a6b5bc}.calc-divider{background:rgba(255,255,255,.12)}
+.result-label{color:#b2c0c5}.result-main strong{color:#fff}.result-main span{color:#9eafb6}
+.result-bar{background:#284355}.result-foot{color:#a7b6bc}.result-foot b{color:#f1f4f4}
+.result-annual{background:#0b2232;color:#b3c0c5}.result-annual strong{color:#7bd5ad}
+.calc-disclaimer{color:#a0b0b7}
+.process-grid{border-color:rgba(255,255,255,.14)}.process-item>span{background:#091e2d;color:#e8b84f}
+.process-icon{background:#153449;color:#f2c35d}.process-item h3{color:#f1f5f5}.process-item p{color:#a1b1b8}
+.review-score .big-score{color:#fff}.big-score span{color:#9eafb6}
+.review-score p{color:#a1b1b8}.review-score>a{color:#f0c35e}
+.review-quote{background:#153246;box-shadow:0 12px 40px rgba(0,0,0,.2);border:1px solid rgba(255,255,255,.08)}
+.review-quote blockquote{color:#f4f6f5}.quote-source b{color:#f1f5f5}.quote-source small,.review-foot{color:#a0b0b7}
+.avatar{background:#293e4b;color:#f3c25b}.review-foot{border-color:rgba(255,255,255,.13)}
+.about-visual{border:1px solid rgba(255,255,255,.1)}
+.about-details>div>span{background:#18374a;color:#f3c15a}
+.faq-list details,.faq-list details:first-child{border-color:rgba(255,255,255,.14)}
+.faq-list summary{color:#f0f5f5}.faq-list details p{color:#a8b6bd}
+.faq-list summary span{color:#f0c15a}
+.final-cta{background:linear-gradient(110deg,#dca52f,#efbd52)}
+.footer{background:#04121e}.footer-bottom{border-color:rgba(255,255,255,.12)}
+.topline{background:#020d16}
+@media(max-width:700px){
+ .nav{background:#071b2a;border-color:rgba(255,255,255,.1)}
+ .nav>a{color:#e2ebed;border-color:rgba(255,255,255,.1)}
+ .nav .nav-cta{background:#e6ad39;color:#102536}
+ .hero-content{padding-top:55px}
+ .solution-card{min-height:335px}
+}
